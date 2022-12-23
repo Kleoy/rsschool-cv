@@ -1,10 +1,13 @@
 
 html, body {
-    font-family: Arial, serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
+* {
+    box-sizing: border-box;
+  }
 table {
     border-collapse: collapse;
 }
@@ -15,3 +18,17 @@ table.border td, table.border th {
 table.border th {
     background: #e0e0e0;
 }
+header {
+    border: 1px solid red
+}
+main {
+    border: 1px solid blue
+}
+footer {
+    border: 1px solid green
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
